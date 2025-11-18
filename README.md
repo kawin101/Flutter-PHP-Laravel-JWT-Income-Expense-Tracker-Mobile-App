@@ -221,10 +221,11 @@ Authorization: Bearer <TOKEN>
 
 ```json
 {
-  "title": "Coffee",
-  "amount": 90,
-  "type": "expense",
-  "category_id": 1
+    "type": "expense",
+    "amount": 150.00,
+    "category": "Food",
+    "description": "Lunch at KFC",
+    "transaction_date": "2025-11-19"
 }
 ```
 
