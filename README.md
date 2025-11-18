@@ -219,6 +219,10 @@ Authorization: Bearer <TOKEN>
 
 ### Create transaction (Example)
 
+**Method:** ```POST```
+
+**URL:** ```http://expense-api.test/api/transactions```
+
 ```json
 {
     "type": "expense",
