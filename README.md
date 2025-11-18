@@ -170,8 +170,24 @@ http://127.0.0.1:8000/api
 | Endpoint         | Method | Auth |
 | ---------------- | ------ | ---- |
 | `/auth/register` | POST   | ❌    |
-| `/auth/login`    | POST   | ❌    |
+| `/auth/login`    | POST   | ✅    |
 | `/auth/logout`   | POST   | ✅    |
+
+### Example: Register
+
+**URL** `http://expense-api.test/api/auth/register`
+
+**POST** `/auth/register`
+
+```json
+{
+    "name": "Test User",
+    "email": "test@gmail.com",
+    "password": "password123"
+}
+```
+
+---
 
 ### Example: Login
 
@@ -179,8 +195,8 @@ http://127.0.0.1:8000/api
 
 ```json
 {
-  "email": "user@example.com",
-  "password": "password"
+    "email": "test@gmail.com",
+    "password": "password123"
 }
 ```
 
